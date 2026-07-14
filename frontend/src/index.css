@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+/* Dotted leader between a line-item label and its amount, like a receipt */
+.leader {
+  flex: 1 1 auto;
+  border-bottom: 2px dotted #C9C2B3;
+  margin: 0 0.5rem;
+  min-width: 12px;
+  transform: translateY(-4px);
+}
